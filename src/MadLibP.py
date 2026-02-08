@@ -1,23 +1,43 @@
 Start = input("Would you like to create a Mad Lib story? yes/no: ")
 while Start == "yes":
-    Topic = input("What kind of topic would you like? Simon Story/2/Colonoscopy/Political Speech: ")
-    if Topic == "Simon Story":
-        Input1 = input("Type a living thing: ")
-        Input2 = input("Type a male name: ")
-        Input3 = input("Type a name of a place: ")
-        Input4 = input("Type a female name: ")
-        Input5 = input("Type a ethnicity: ")
-        Input6 = input("Type a body part: ")
-        Input7 = input("Type a action: ")
-        Input8 = input("Type a class subject: ")
-        Input9 = input("Type a body part: ")
-        Input10 = input("Type a: ")
-        Input11 = input("Type a: ")
-        Input12 = input("Type a: ")
-        Input13 = input("Type a: ")
-        Input14 = input("Type a: ")
-        Input15 = input("Type a: ")
-        print("Mad Libs Testing Format: " + Input1 + Input2 + Input3)
+    Topic = input("What kind of topic would you like? High School Crush/2/Colonoscopy/Political Speech: ")
+    if Topic == "High School Crush":
+        livingThing = input("Type a living thing: ")
+        maleName = input("Type a male name: ")
+        placeName = input("Type a name of a place: ")
+        femaleName = input("Type a female name: ")
+        ethnicity = input("Type a ethnicity: ")
+        charmingCharacteristic = input("Type a charming characteristic: ")
+        schoolClass = input("Type a school class: ")
+        actionOfLooking = input("Type a different way of saying 'looking': ")
+        className2 = input("Type a second class name: ")
+        liquid = input("Type an inedible liquid: ")
+        bodyPart = input("Type a body part from the shoulder to the fingers: ")
+        food = input("Type a food: ")
+        instrument = input("Type a musical instrument: ")
+        placeName2 = input("Type a second name of a place: ")
+        name2 = input("Type a name: ")
+        name3 = input("Type a second name: ")
+        name1 = input("Type a third name: ")
+
+        print("There once was a " + livingThing +" named " + maleName + ". " + maleName + " lived in " + placeName + 
+    " with his mom, dad, and younger sister. " + maleName + " had just got up and gotten ready for school. "
+    + maleName + " loved to go to school because he had feelings for this girl " + femaleName + ", but he "
+    " was also pretty nervous because " + maleName + " was performing in the " + placeName + " annual talent"
+    " show where he would play his " + instrument + ". " + femaleName + " was " + ethnicity + " and " + maleName + " loved her"
+    " hair, eyes, and " + charmingCharacteristic + ". One day as " + maleName + " was at school in "
+    + schoolClass + ", " + femaleName + " couldn’t stop " + actionOfLooking + " at him and after class " + maleName
+    + " asked " + femaleName + " why she couldn’t stop looking at him thinking maybe she liked him back."
+    " However " + femaleName + " pretended not to notice and quickly walked to her " + className2 + ". "
+    + maleName + " couldn’t stop thinking about her the whole rest of the day. In chemistry " + maleName 
+    + " was so distracted he almost took a swig of " + liquid + " in his chemistry beaker instead of his water"
+    " that was in his water bottle. In his culinary class he even accidentally almost cut his " + bodyPart + "."
+    " At lunch while " + maleName + " was eating his " + food + ", his friends " + name1 + ", " + name2 + ", and " + name3
+    + " tried to get him to snap out of it. After school " + maleName + " was getting ready for the talent show"
+    " which he practiced his " + instrument + " for many hours for. Then right as he got on the stage about to play,"
+    " he saw his crush " + femaleName + " in the crowd. He started playing his " + instrument + " and after the crowd"
+    " broke into applause and " + femaleName + " ran up to him to confess her love and they lived happily ever after"
+    " in " + placeName2 + ".")
     if Topic == "2":
         Input1 = input("Type a: ")
         Input2 = input("Type a: ")
