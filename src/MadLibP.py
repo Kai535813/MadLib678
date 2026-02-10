@@ -1,4 +1,4 @@
-Topic = input("What kind of topic would you like? High School Crush/2/3/4: ")
+Topic = input("What kind of topic would you like? High School Crush/fever dream/3/4: ")
 if Topic == "High School Crush":
     livingThing = input("Type a living thing: ")
     maleName = input("Type a male name: ")
@@ -36,23 +36,35 @@ if Topic == "High School Crush":
     " he saw his crush " + femaleName + " in the crowd. He started playing his " + instrument + " and after the crowd"
     " broke into applause and " + femaleName + " ran up to him to confess her love and they lived happily ever after"
     " in " + placeName2 + ".")
-elif Topic == "2":
-    Input1 = input("Type a: ")
-    Input2 = input("Type a: ")
-    Input3 = input("Type a: ")
-    Input4 = input("Type a: ")
-    Input5 = input("Type a: ")
-    Input6 = input("Type a: ")
-    Input7 = input("Type a: ")
-    Input8 = input("Type a: ")
-    Input9 = input("Type a: ")
-    Input10 = input("Type a: ")
-    Input11 = input("Type a: ")
-    Input12 = input("Type a: ")
-    Input13 = input("Type a: ")
-    Input14 = input("Type a: ")
-    Input15 = input("Type a: ")
-    print("Mad Libs Testing Format: " + Input1 + Input2 + Input3)
+elif Topic == "fever dream":
+        positiveCharactaristic1 = input("Type a positive characteristic: ")
+        positiveCharactaristic2 = input("Type a second positive characteristic: ")
+        adjective3 = input("Type an adjective: ")
+        noun4 = input("Type a noun: ")
+        name5 = input("Type a name: ")
+        adjective6 = input("Type a second adjective: ")
+        adjective7 = input("Type a third adjective: ")
+        famousMaleActor8 = input("Type a famous male actor: ")
+        famousCatchphrase9 = input("Type a famous catchphrase: ")
+        vehicle10 = input("Type a type of vehicle: ")
+        foreignDangerousCountry11 = input("Type a foreign dangerous country: ")
+        superpower12 = input("Type a superpower: ")
+        computerProgrammingConcept13 = input("Type a computer programming concept: ")
+        pairOfLimbs14 = input("Type a pair of limbs (e.g. arms, legs): ")
+        adjective15 = input("Type an adjective: ")
+        print("There once was a " + positiveCharactaristic1 + " class called computer programming 2 at skyline high school. " 
+              "This class had a " + positiveCharactaristic2 + " teacher named Mr. Kapptee. One " + adjective3 + " November there "
+              "was a " + noun4 + " named " + name5 + " who took Mr. Kapptee's computer class with all the rest of the " + noun4 +
+             "s. Then suddenly a " + adjective6 + " "+ adjective7 + " guy named " + famousMaleActor8 + " broke through the glass "
+             "door in the back corner of the room and said his signature catchphrase \"" + famousCatchphrase9 + "\" and took " + name5 +
+             " and Mr. Kapptee by their arms and stuffed him in his "+ vehicle10 +" where he took their passports and took "
+             "them to "+ foreignDangerousCountry11 +" where "+ famousMaleActor8 +" thought they would never be able to escape from. "
+             "However he didn’t know that Mr. Kapptee had the powers of "+ superpower12 +" as well as flight and used his "+ superpower12 
+             +" to absolutely destroy "+ famousMaleActor8 +" after which he flew "+ name5 +" back to school with the other "+ noun4 +
+             "s where they continued to learn about "+ computerProgrammingConcept13 +" after which "+ name5+" got up on his "+ pairOfLimbs14 +
+             " and asked in a "+ adjective15 +" voice, 'how the heck do you have superpowers?' Just as Mr. Kapptee was about to explain," 
+             +name5+ " felt weird and then he woke up and figured out it was all just a fever dream he had after eating too much pizza the night before.")
+
 elif Topic == "3":
     Input1 = input("Type a male name: ")
     Input2 = input("Things that would be suprising to find: ")
@@ -125,5 +137,6 @@ elif Topic == "4":
                   And these big price cuts will greatly reduce the cost of {Input15}.""")
 
     
+
 
     
